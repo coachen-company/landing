@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coachen – Your Personal Training App</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    :root {
+      --color-primary: #143636;
+      --color-secondary: #F7EBCD;
+      --color-accent: #255959;
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-[var(--color-secondary)] text-[var(--color-primary)] font-sans">
+  <!-- Hero Section -->
+  <section class="relative bg-[var(--color-primary)] text-[var(--color-secondary)]">
+    <div class="max-w-7xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center">
+      <div class="flex-1">
+        <h1 class="text-4xl md:text-6xl font-bold mb-6">
+          Coachen – Your Personal Training App
+        </h1>
+        <p class="text-lg md:text-xl mb-8 max-w-lg text-[var(--color-secondary)]/90">
+          Create, plan, and follow your floorball exercises with Coachen. Perfect for coaches and players who want to take training to the next level.
+        </p>
+        <div class="flex gap-4">
+          <a href="https://apps.apple.com/us/app/coachen/id6744722011" class="px-6 py-3 bg-[var(--color-secondary)] text-[var(--color-primary)] font-semibold rounded-2xl shadow hover:bg-white">
+            Download the App
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-20 max-w-7xl mx-auto px-6">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-[var(--color-primary)]">
+      Features That Make a Difference
+    </h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white rounded-2xl shadow-lg p-6 text-center hover:shadow-xl transition">
+        <i data-lucide="calendar" class="w-16 h-16 text-[var(--color-accent)] mx-auto mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2 text-[var(--color-accent)]">Plan Trainings</h3>
+        <p class="text-gray-700">Easily create training schedules and adapt them to your team.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow-lg p-6 text-center hover:shadow-xl transition">
+        <i data-lucide="play-circle" class="w-16 h-16 text-[var(--color-accent)] mx-auto mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2 text-[var(--color-accent)]">Animated Drills</h3>
+        <p class="text-gray-700">View exercises visualized in 3D for better understanding.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow-lg p-6 text-center hover:shadow-xl transition">
+        <i data-lucide="users" class="w-16 h-16 text-[var(--color-accent)] mx-auto mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2 text-[var(--color-accent)]">Share with Your Team</h3>
+        <p class="text-gray-700">Share drills and plans directly with players and other coaches.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call To Action -->
+  <section class="py-20 bg-[var(--color-accent)] text-[var(--color-secondary)] text-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-6">
+      Ready to Take Your Training to the Next Level?
+    </h2>
+    <p class="mb-8 text-lg text-[var(--color-secondary)]/90">
+      Download Coachen today and start creating better practices.
+    </p>
+    <a href="https://apps.apple.com/us/app/coachen/id6744722011" class="px-8 py-4 bg-[var(--color-secondary)] text-[var(--color-primary)] font-bold rounded-2xl shadow hover:bg-white">
+      Download the App
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10 text-center text-[var(--color-primary)]/80">
+    <p>&copy; <script>document.write(new Date().getFullYear())</script> Coachen. All rights reserved.</p>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
